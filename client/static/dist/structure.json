@@ -1,0 +1,53 @@
+data = [
+	{
+		type: "file",
+		name: "filename.md"
+		path: "/filename.md"
+	},
+	{
+		type: "folder",
+		name: "magic-directory",
+		path: "/magic-directory",
+		children:  [
+			{
+				type: "folder",
+				name: "nyanning",
+				path: "/magic-directory/nyanning"
+				children:  [
+					{
+						type: "file",
+						name: "nyancat_love.gif",
+						path: "/magic-directory/nyanning/nyancat_love.gif",
+					},
+					{
+						type: "file",
+						name: "nyancat-the_movie.mp4",
+						path: "/magic-directory/nyanning/nyancat-the_movie.mp4",						
+					}
+				]
+			},
+			{
+				type: "file",
+				name: "thunking.md",
+				path: "/magic-directory/thunking.md",
+			}
+		]
+	},
+	{
+		type: "folder",
+		name: "ridiculous_directory",
+		path: "/ridiculous_directory",
+		children:  [
+			{
+				type: "file",
+				name: "aaaaaaaace.jpg",
+				path: "/ridiculous_directory/aaaaaaaace.jpg"
+			},
+			{
+				type: "file",
+				name: "yahhh.jpg",
+				path: "/ridiculous_directory/yahhh.jpg"				
+			}
+		]
+	}
+];
