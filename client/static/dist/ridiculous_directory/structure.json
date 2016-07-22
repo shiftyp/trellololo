@@ -1,0 +1,12 @@
+data = [
+	{
+		type: "file",
+		name: "aaaaaaaace.jpg",
+		path: "/ridiculous_directory/aaaaaaaace.jpg"
+	},
+	{
+		type: "file",
+		name: "yahhh.jpg",
+		path: "/ridiculous_directory/yahhh.jpg"				
+	}
+];
